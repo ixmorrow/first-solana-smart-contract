@@ -1,0 +1,12 @@
+[programs.localnet]
+mysolanaapp = "ADbguHVyJgcWnQz3XLe8ZmDmPtxhx9dp8WJ6QbrsdzHC"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "localnet"
+wallet = "/home/ixmorrow/.config/solana/id.json"
+
+[scripts]
+test = "yarn run mocha -t 1000000 tests/"
